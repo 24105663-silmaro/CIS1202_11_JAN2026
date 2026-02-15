@@ -1,0 +1,26 @@
+Student Reflective AI Note Template
+Course: CIS 1202 - Web Development I
+Week No / Task: Week 5: Semantic Scaffolding & Front-Page Anatomy
+Date: February 16, 2026
+Section 1: The Interaction Log (The "How")
+AI Tool Used: Gemini 2.0 Flash
+Primary Prompt:
+"I am a 2nd-year IT student named Kirk Jeanar specializing in Web Development. Write a professional 2-sentence elevator pitch for my portfolio hero section."
+Refinement Steps:
+The first summary was good but a bit general. The AI was asked to refine it to focus on "bridging the gap between efficient back-end logic and intuitive front-end design" to better match the current 2nd-year student status.
+Section 2: Technical Validation (The "What")
+Code Explanation:
+The AI suggested using the <main> tag to wrap the core content (Hero, About, and Projects) and <figure> with <figcaption> for the project grid. This ensures the page is semantically correct, allowing search engines and screen readers to understand which text describes which image.
+Manual Edits:
+Changed: Relative image paths were updated from images/ to portfolio/images/ because the index.html was located outside the portfolio folder.
+Added: Specific course links and target="_blank" attributes were added to ensure all external project links open in new tabs as required by the rubric.
+Section 3: Learning Reflection (The "Why")
+The "Aha!" Moment:
+Using a backslash (\) in file paths is for Windows folders, while HTML requires a forward slash (/) for web browsers to load images correctly.
+Documentation Cross-Check:
+[X] Yes / [ ] No
+Concept verified: Verified the correct usage of the <address> tag for contact information on the MDN Web Docs.
+Section 4: Compliance & Integrity Statement
+Integrity Check: The user confirms that while AI assisted in generating the initial structure/logic, every line of code in this submission has been manually reviewed, edited, and can be fully explained.
+Signature/Initials: K.J.S.
+
