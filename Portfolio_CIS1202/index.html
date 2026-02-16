@@ -3,70 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio of Kirk Jeanar T. Silmaro, IT Student">
-    <title>My Portfolio | IT Student</title>
+    <meta name="description" content="Kirk Jeanar T. Silmaro - IT Student & Aspiring Web Developer Portfolio">
+    <meta name="keywords" content="web developer, IT student, portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Kirk Jeanar T. Silmaro">
+    <title>Kirk Jeanar T. Silmaro - IT Student Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>Kirk Jeanar T. Silmaro</h1>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
-                <li><a href="#hero">Hero Section</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">My Projects</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="hero">
-            <h2>Welcome to My Portfolio</h2>
-            <img src="portfolio/images/profile.jpg" alt="Kirk Silmaro's Profile Picture" width="200">
-            <p>
-                I am an aspiring Web Developer dedicated to building clean, accessible, and user-centric digital experiences.<br>
-                Currently a 2nd-year IT student, I focus on bridging the gap between efficient back-end logic and intuitive front-end design.
-            </p>
-        </section>
-        <article id="about">
-            <h2>About Me</h2>
-            <p>
-                I am currently pursuing a <em>Bachelor of Science in Information Technology</em>.
-                My studies focus on developing technical solutions and mastering modern web technologies.
-            </p>
-            <p>So far, my academic journey has introduced me to the fundamentals of the IT world, including:</p>
-            <ul>
-                <li><strong>Web Foundations:</strong> Learning the structure of the web using Semantic HTML.</li>
-                <li><strong>Problem Solving:</strong> Developing logic through introductory programming courses.</li>
-                <li><strong>Hardware & Networking:</strong> Understanding how computers and systems communicate.</li>
-                <li><strong>Future Goals:</strong> I am interested in exploring how AI and Web Development can work together.</li>
-            </ul>
-        </article>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-card">
-                <h3>CIS 1102 Web Implementation</h3>
-                <figure>
-                    <img src="portfolio/images/WebImplementation.jpg" alt="Live Portfolio Preview" width="250">
-                    <figcaption>Final project: A fully styled website implemented during my first year.</figcaption>
-                </figure>
-                <p>This project demonstrates my ability to structure a professional web page using modern HTML5 standards.</p>
-                <a href="https://github.com/24105663-silmaro/CIS1202_11_JAN2026/tree/main/Portfolio_CIS1102" target="_blank">View Web Implementation</a>
+        <section id="home">
+            <h1>Kirk Jeanar T. Silmaro</h1>
+            <p class="subtitle">IT Student & Aspiring Web Developer</p>
+            <div class="hero-content">
+                <img src="portfolio/images/profile.jpg" alt="Kirk Jeanar T. Silmaro - Professional Headshot" width="200">
+                <div class="hero-text">
+                    <p>
+                        Passionate about building clean, accessible, and user-centric digital experiences.
+                        Currently a 2nd-year IT student focused on bridging efficient back-end logic with intuitive front-end design.
+                    </p>
+                    <p>
+                        <strong>Specializing in:</strong> Semantic HTML5, Modern CSS, Responsive Design, Web Accessibility
+                    </p>
+                </div>
             </div>
-            <div class="project-card">
-                <h3>Professional Portfolio Repo</h3>
-                <figure>
-                    <img src="portfolio/images/Repository.jpg" alt="Portfolio Source code" width="250">
-                    <figcaption>A preview of the clean, semantic HTML5 structure used in this repository.</figcaption>
-                </figure>
-                <a href="https://github.com/24105663-silmaro/CIS1202_11_JAN2026.git" target="_blank">View Repository</a>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="education">
+                    <h3>Education</h3>
+                    <p>
+                        <strong>Bachelor of Science in Information Technology</strong><br>
+                        Currently pursuing with focus on modern web technologies and technical solutions.
+                    </p>
+                </div>
+                <div class="skills">
+                    <h3>Technical Skills & Knowledge</h3>
+                    <ul>
+                        <li><strong>Web Foundations:</strong> Semantic HTML5, Modern CSS, Responsive Design</li>
+                        <li><strong>Programming:</strong> Problem-solving through introductory programming courses</li>
+                        <li><strong>Systems:</strong> Computer hardware and networking fundamentals</li>
+                        <li><strong>Emerging Technologies:</strong> AI integration with web development</li>
+                    </ul>
+                </div>
+                <div class="goals">
+                    <h3>Professional Goals</h3>
+                    <p>
+                        Interested in exploring the intersection of artificial intelligence and modern web development 
+                        to create innovative, intelligent digital solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-item">
+                    <h3>CIS 1102 Web Implementation</h3>
+                    <div class="project-media">
+                        <img src="portfolio/images/WebImplementation.jpg" alt="CIS 1102 Web Implementation Project Screenshot" width="250">
+                    </div>
+                    <div class="project-details">
+                        <p><strong>Project Type:</strong> Academic Portfolio Website</p>
+                        <p><strong>Technologies:</strong> HTML5, CSS3, Responsive Design</p>
+                        <p>
+                            Final project demonstrating professional web page structure using modern HTML5 standards 
+                            and semantic markup for accessibility and SEO.
+                        </p>
+                        <a href="https://github.com/24105663-silmaro/CIS1202_11_JAN2026/tree/main/Portfolio_CIS1102" 
+                           target="_blank" rel="noopener noreferrer">View Project Repository</a>
+                    </div>
+                </article>
+                <article class="project-item">
+                    <h3>Professional Portfolio Repository</h3>
+                    <div class="project-media">
+                        <img src="portfolio/images/Repository.jpg" alt="Portfolio Repository Code Structure" width="250">
+                    </div>
+                    <div class="project-details">
+                        <p><strong>Project Type:</strong> Personal Portfolio & Code Repository</p>
+                        <p><strong>Focus:</strong> Clean Code, Semantic HTML5, Best Practices</p>
+                        <p>
+                            A comprehensive showcase of clean, semantic HTML5 structure following web development 
+                            best practices and accessibility standards.
+                        </p>
+                        <a href="https://github.com/24105663-silmaro/CIS1202_11_JAN2026.git" 
+                           target="_blank" rel="noopener noreferrer">View Source Code</a>
+                    </div>
+                </article>
             </div>
         </section>
     </main>
-    <footer id="contacts">
-        <h2>Contacts</h2>
-        <address>
-            <p>Email: <a href="mailto:kirkjeanars@gmail.com" target="_blank">kirkjeanars@gmail.com</a></p>
-        </address>
+    <footer id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+            <address>
+                <p>
+                    <strong>Email:</strong> 
+                    <a href="mailto:kirkjeanars@gmail.com" 
+                       target="_blank" 
+                       rel="noopener noreferrer">kirkjeanars@gmail.com</a>
+                </p>
+                <p>
+                    <strong>Location:</strong> Available for remote opportunities
+                </p>
+                <p>
+                    <strong>Status:</strong> 2nd Year IT Student - Open to internships and collaborative projects
+                </p>
+            </address>
+        </div>
+        <div class="footer-meta">
+            <p>&copy; 2026 Kirk Jeanar T. Silmaro. Built with semantic HTML5.</p>
+        </div>
     </footer>
 </body>
 </html>
