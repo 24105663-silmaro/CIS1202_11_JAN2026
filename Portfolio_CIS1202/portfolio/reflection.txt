@@ -24,3 +24,5 @@ Section 4: Compliance & Integrity Statement
 Integrity Check: The user confirms that while AI assisted in generating the initial structure/logic, every line of code in this submission has been manually reviewed, edited, and can be fully explained.
 Signature/Initials: K.J.S.
 
+Additions: "Refine existing code, Do not add css or style tags, and clean up code for coder's readability"
+			"now format it how a professional portfolio would look like. still no css or styling tags."
