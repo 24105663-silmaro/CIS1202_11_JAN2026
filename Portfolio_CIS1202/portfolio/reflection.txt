@@ -26,3 +26,4 @@ Signature/Initials: K.J.S.
 
 Additions: "Refine existing code, Do not add css or style tags, and clean up code for coder's readability"
 			"now format it how a professional portfolio would look like. still no css or styling tags."
+			"make a dedicated contacts page, and add it to my nav. make sure the contacts page has fill up boxes. no css, no styling, only semantic html."
